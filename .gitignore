@@ -1,0 +1,34 @@
+# Dependências
+/node_modules
+/.pnp
+.pnp.js
+
+# Build / Compilação / NestJS
+/dist
+/build
+
+# Variáveis de ambiente sensíveis
+.env
+.env.local
+.env.development
+.env.production
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+npm-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Sistema Operacional / IDEs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Cobertura de testes e cache
+/coverage
+/.turbo
+.eslintcache
